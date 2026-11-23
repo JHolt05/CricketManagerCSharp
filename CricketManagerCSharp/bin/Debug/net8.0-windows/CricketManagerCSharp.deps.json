@@ -1,0 +1,41 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "CricketManagerCSharp/1.0.0": {
+        "dependencies": {
+          "MedallionRandom": "1.1.0"
+        },
+        "runtime": {
+          "CricketManagerCSharp.dll": {}
+        }
+      },
+      "MedallionRandom/1.1.0": {
+        "runtime": {
+          "lib/netstandard1.3/MedallionRandom.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "CricketManagerCSharp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MedallionRandom/1.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RBSz2xddcuDIkY7oRxzSRGddgv98iMkAyqa+1P5NpECBgeDUtK7GMhM+ZM1Ed4qddqXqi6AwgDyI/2iji3q3yw==",
+      "path": "medallionrandom/1.1.0",
+      "hashPath": "medallionrandom.1.1.0.nupkg.sha512"
+    }
+  }
+}
